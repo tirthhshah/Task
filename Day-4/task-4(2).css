@@ -1,0 +1,12 @@
+.nav{
+    display:flex;
+   
+}
+.nav a{
+    margin: 120px;
+    text-decoration: none;
+    border:1px solid black;
+    box-shadow: 2px 4px 10px blue;
+    padding:4px;
+    color:black;
+}
