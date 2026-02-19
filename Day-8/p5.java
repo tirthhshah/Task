@@ -1,4 +1,4 @@
-public class HollowPyramidFiveBase {
+public class p5 {
     public static void main(String[] args) {
 
         int rows = 5;
@@ -6,18 +6,16 @@ public class HollowPyramidFiveBase {
 
         for (int i = 1; i <= rows; i++) {
 
-            // spacing for center alignment
             for (int j = 1; j <= rows - i; j++) {
                 System.out.print(" ");
             }
 
             if (i == rows) {
-                // print only 5 stars on last row
                 for (int j = 1; j <= baseStars; j++) {
                     System.out.print("* ");
                 }
             } else {
-                // print hollow sides
+             
                 for (int k = 1; k <= 2*i - 1; k++) {
                     if (k == 1 || k == 2*i - 1)
                         System.out.print("*");
