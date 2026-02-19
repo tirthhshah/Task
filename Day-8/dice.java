@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class dice {
 
     static int ways(int dice, int sum) {
 
