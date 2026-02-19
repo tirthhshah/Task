@@ -1,4 +1,4 @@
-public class HollowButterfly {
+public class p6 {
     public static void main(String[] args) {
 
         int n = 5;
